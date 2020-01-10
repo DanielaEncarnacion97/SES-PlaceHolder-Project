@@ -1,10 +1,16 @@
-## OneStop: Shopping List with React.js and Flask backend
+# OneStop: Shopping List with React.js and Flask backend
 
 Create a grocery list and compare prices from Walmart and Target to see which option is more affordable overall.
 
 Implemented with React.js (v15) and Twitter Bootstrap (v3). Created for Capital One Software Engineering Summit, January 2020.
 
 Uses Webpack, Yarn.
+
+
+# Running the Back End
+Clone this repository and install dependencies using `requirements.txt`
+
+Run `python3 __init__.py`. The server will open at http://localhost:5000.
 
 # Running the Front End
 
