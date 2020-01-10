@@ -75,7 +75,7 @@ def get_target(product):
                 price = price.replace('¢', '')
                 price = float(price)
                 price *= 1/100
-            price = float(price)
+            price = float(price) 
 
             output.append((title, price))
         except Exception:
