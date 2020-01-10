@@ -6,14 +6,17 @@ Implemented with React.js (v15) and Twitter Bootstrap (v3). Created for Capital 
 
 Uses Webpack, Yarn.
 
-Install
-npm install -g yarn (use sudo if this gives you problems)
-yarn install
-What is Yarn?
+## Install
+`npm install -g yarn` (use `sudo` if this gives you problems)
+`yarn install`
+
+## What is Yarn?
 https://code.facebook.com/posts/1840075619545360
 https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm
-Run
-npm start (May need to run npm install first)
+
+## Run
+`npm start` (May need to run `npm install` first)
 Open http://localhost:8080 in a web browser.
-Build
-npm run build
+
+##Build
+`npm run build`
