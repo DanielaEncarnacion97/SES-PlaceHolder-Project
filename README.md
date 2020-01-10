@@ -31,5 +31,5 @@ https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm
 
 Open http://localhost:8080 in a web browser.
 
-##Build
+## Build
 `npm run build`
