@@ -17,7 +17,7 @@ def items_processor(og_item_list):
         for (name,cost) in options:
             if item in name:
                 return Item(name, cost, supplier)
-        return Item("Error: no relevant items", double., supplier)
+        return Item("Error: no relevant items", sys.float_info.max, supplier)
 
     def is_target_cheaper(result, target_item, walmart_item)
         target_item.setIsCheaper(result)
