@@ -2,7 +2,7 @@
 
 Create a grocery list and compare prices from Walmart and Target to see which option is more affordable overall.
 
-Implemented with React.js (v15) and Twitter Bootstrap (v3). Created for Capital One Software Engineering Summit, January 2020.
+Front end implemented with React.js (v15) and Twitter Bootstrap (v3). Back end implemented with python and run on Flask. Created for Capital One Software Engineering Summit, January 2020.
 
 Uses Webpack, Yarn.
 
