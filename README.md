@@ -12,7 +12,9 @@ Clone this repository and navigate into the directory.
 
 Install dependencies using the provided `requirements.txt`
 
-Run `python3 __init__.py`. The server will open at http://localhost:5000.
+Run `python3 __init__.py` (those are double underscores on each side). 
+
+Open http://localhost:5000 in a web browser.
 
 # Running the Front End
 
