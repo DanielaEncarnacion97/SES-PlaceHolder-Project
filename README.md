@@ -10,7 +10,7 @@ Uses Webpack, Yarn.
 # Running the Back End
 Clone this repository and navigate into the directory.
 
-Install dependencies using `requirements.txt`
+Install dependencies using the provided `requirements.txt`
 
 Run `python3 __init__.py`. The server will open at http://localhost:5000.
 
