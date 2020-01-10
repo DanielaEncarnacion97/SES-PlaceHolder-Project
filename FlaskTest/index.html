@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div id="div1">
+        <h2>Let jQuery AJAX Change This Text</h2>
+    </div>
+
+    <button>Get External Content</button>
+    <script>
+        const response = await fetch("http://127.0.0.1:5000/api/", {
+            method: "POST",
+            headers: {
+                "Content_Type": "application/json"
+            },
+            body:
+                JSON.stringify("eggs,bread,milk,rice")
+        })
+        if (response.ok) {
+            console.log("Response Worked! ");
+            console.log(JSON.stringify(response.url));
+            console.log(response);
+            setTitle("We found your favorite book!")
+            console.log(response);
+        }
+        else {
+            console.log("Title not found")
+            setTitle("We did not find this title. Please try again!")
+        }
+    </script>
+</body>
+
+</html>
