@@ -4,6 +4,7 @@
 import logging as logger
 from flask import Blueprint, jsonify, request
 from scraper import get_walmart, get_target
+from process import api
 import json
 
 main = Blueprint('main', __name__)
@@ -12,9 +13,6 @@ print('App is startign!!')
 
 @main.route('/api/<data>', methods=['POST', 'GET'])
 def api(data):
-    print('Startign service')
-    #  data = request.get_json()
-    
     try:
         print('-'*80)
         print(data)
