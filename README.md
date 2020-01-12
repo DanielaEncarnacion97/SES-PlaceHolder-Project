@@ -21,6 +21,7 @@ Open http://localhost:5000 in a web browser.
 
 ## Install
 `npm install -g yarn` (use `sudo` if this gives you problems)
+
 `yarn install`
 
 ## What is Yarn?
