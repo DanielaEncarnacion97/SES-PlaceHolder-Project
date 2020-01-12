@@ -16,6 +16,7 @@ Run `python3 __init__.py` (those are double underscores on each side).
 
 Open http://localhost:5000 in a web browser.
 
+
 # Running the Front End
 
 ## Install
@@ -33,3 +34,10 @@ Open http://localhost:8080 in a web browser.
 
 ## Build
 `npm run build`
+
+# More Information about the Application
+1. Enter each item that you are planning to buy on your shopping trip
+2. For each item, the backend code searches up the item on the Target and Walmart websites and web scrapes the data of the first few items
+3. For Target and Walmart, all items are compared to find the one that has the lowest listed price. The item’s name from the website is cross referenced with the user inputted item name to verify its relevance.
+4. The cheapest item (and its data) from both stores is sent back to the front end, with a note of which store offered the cheaper item
+5. The app will calculate the total cost of your shopping trip for both stores and display this in its UI, allowing the user to see which store yields the lower total price.
